@@ -29,8 +29,8 @@ public class TestController {
 
     // 使用get 方法
     @GetMapping("/test")
-    public String test(){
-        // return 字符串
+    public String test() {
+        // return 字d符串
         return "hello world";
     }
 }

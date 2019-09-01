@@ -1,5 +1,7 @@
 package com.example.demo.subject;
 
+import com.example.demo.email.bean.MailBean;
+
 /**
  * @projectName try-spring-boot
  * @packageName com.example.demo.subject

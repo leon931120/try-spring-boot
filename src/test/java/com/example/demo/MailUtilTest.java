@@ -18,17 +18,16 @@ public class MailUtilTest {
     @Test
     public void sendSimpleMail() throws Exception {
         MailBean mailBean = new MailBean();
-        mailBean.setRecipient("zhenyu_063@foxmail.com");
-        mailBean.setSubject("测试SpringBootMail");
-        mailBean.setContent("i push code to the git ,take a try  ");
-
+        mailBean.setRecipient("mao@jinanxunhua.com");
+        mailBean.setSubject("测试邮件发送");
+        mailBean.setContent("使用程序发送邮件，文本格式任意编辑");
         mailUtil.sendSimpleMail(mailBean);
     }
 
     @Test
     public void sendHTMLMail() throws Exception {
         MailBean mailBean = new MailBean();
-        mailBean.setRecipient("15079150591@163.com");
+        mailBean.setRecipient("1023615397@qq.com");
         mailBean.setSubject("测试SpringBootMailHTML");
 //        mailBean.setContent("测试SpringBootMail ");
 
@@ -49,7 +48,7 @@ public class MailUtilTest {
     @Test
     public void sendInlineMail() throws Exception {
         MailBean mailBean = new MailBean();
-        mailBean.setRecipient("1023615397@qq.com");
+        mailBean.setRecipient("liuwei@jinanxunhua.com");
         mailBean.setSubject("测试SpringBoot发送带静态资源邮件");
         mailBean.setContent("测试SpringBoot发送带静态资源邮件，正文部分");
         mailUtil.sendInlineMail(mailBean);
@@ -58,7 +57,7 @@ public class MailUtilTest {
     @Test
     public void sendTemplateMail() throws Exception {
         MailBean mailBean = new MailBean();
-        mailBean.setRecipient("1023615397@qq.com");
+        mailBean.setRecipient("liuwei@jinanxunhua.com");
         mailBean.setSubject("测试SpringBoot发送带FreeMarker邮件");
         mailBean.setContent("希望大家能够学到自己想要的东西，谢谢各位的帮助！！！");
         mailUtil.sendTemplateMail(mailBean);

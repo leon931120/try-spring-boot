@@ -1,6 +1,7 @@
 package com.example.demo.subject;
 
 import com.example.demo.email.bean.MailBean;
+import org.springframework.util.StringUtils;
 
 /**
  * @projectName try-spring-boot
@@ -22,5 +23,7 @@ public class subject1 {
         /*about i1 and i2 answer?*/
         System.out.println(i1);
         System.out.println(i2);
+        String st = null;
+        System.out.println(StringUtils.isEmpty(st));
     }
 }

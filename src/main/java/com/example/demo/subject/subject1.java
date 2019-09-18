@@ -17,13 +17,16 @@ import org.springframework.util.StringUtils;
 public class subject1 {
 
     public static void main(String[] args) {
-        int i  =  0;
-        int i1= i++;
-        int i2= ++i1;
-        /*about i1 and i2 answer?*/
-        System.out.println(i1);
-        System.out.println(i2);
-        String st = null;
-        System.out.println(StringUtils.isEmpty(st));
+//        int i  =  0;
+//        int i1= i++;
+//        int i2= ++i1;
+//        /*about i1 and i2 answer?*/
+//        System.out.println(i1);
+//        System.out.println(i2);
+//        String st = null;
+//        System.out.println(StringUtils.isEmpty(st));
+        while (true){
+            System.out.println("Happy 是个大锤子🔨");
+        }
     }
 }

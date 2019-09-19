@@ -1,13 +1,13 @@
-#spring:
-#  datasource:
-#    url: jdbc:mysql://127.0.0.1:3306/test2?characterEncoding=UTF-8
-#    username: root
-#    password: 1234
-#    driver-class-name: com.mysql.jdbc.Driver
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test2?characterEncoding=UTF-8
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.jdbc.Driver
 server:
   port: 8082
-spring:
-  #邮箱配置
+#spring:
+#  #邮箱配置
   mail:
     host: smtp.qq.com
     username: 1023615397@qq.com

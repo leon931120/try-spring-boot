@@ -24,7 +24,7 @@ public class MyOptionalTest {
         props.setProperty("b","true");
         props.setProperty("c","-3");
 
-        System.out.println(readDuration(props, ""));
+        System.out.println(readDuration(props, "b"));
     }
 
     private static int readDuration(Properties props, String b) {

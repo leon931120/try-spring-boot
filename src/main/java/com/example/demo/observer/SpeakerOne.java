@@ -11,6 +11,9 @@ package com.example.demo.observer;
  * <p>Copyright: Copyright (C) 2012-2019</p>
  * <p>Company: Beijing GS Technology Co., Ltd</p>
  */
+/*
+    定义观察者
+ */
 public class SpeakerOne implements Observer {
 
     @Override

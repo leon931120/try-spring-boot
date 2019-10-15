@@ -13,6 +13,7 @@ import java.util.Objects;
  * <p>Copyright: Copyright (C) 2012-2019</p>
  * <p>Company: Beijing GS Technology Co., Ltd</p>
  */
+
 public interface Subject {
 
     void register(Observer o);

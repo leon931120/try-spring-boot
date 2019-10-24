@@ -1,10 +1,8 @@
-package com.example.demo.observer;
-
-import java.util.Objects;
+package com.example.designPattern.observer;
 
 /**
  * @projectName try-spring-boot
- * @packageName com.example.demo.observer
+ * @packageName com.example.designPattern.observer
  * @className Subject
  * @author： liuwei
  * @version： 1.0

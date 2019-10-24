@@ -1,11 +1,11 @@
-package com.example.demo.observer;
+package com.example.designPattern.observer;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @projectName try-spring-boot
- * @packageName com.example.demo.observer
+ * @packageName com.example.designPattern.observer
  * @className Feed
  * @author： liuwei
  * @version： 1.0

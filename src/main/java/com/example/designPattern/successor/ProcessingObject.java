@@ -1,8 +1,8 @@
-package com.example.demo.successor;
+package com.example.designPattern.successor;
 
 /**
  * @projectName try-spring-boot
- * @packageName com.example.demo.successor
+ * @packageName com.example.designPattern.successor
  * @className ProcessingObject
  * @author： liuwei
  * @version： 1.0

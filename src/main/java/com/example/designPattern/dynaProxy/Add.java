@@ -11,8 +11,9 @@ package com.example.designPattern.dynaProxy;
  * <p>Copyright: Copyright (C) 2012-2019</p>
  * <p>Company: Beijing GS Technology Co., Ltd</p>
  */
-public class Add implements AddInter {
+public class Add  implements AddInter {
 
+    @Override
     public void add(){
         System.out.println("计算了1+1");
     }

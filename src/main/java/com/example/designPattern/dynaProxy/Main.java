@@ -17,6 +17,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //完整的jdk动态代理模式
         Add add = new Add();
 
         DynaProxyHandler dph = new DynaProxyHandler(add);
